@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background: linear-gradient(135deg, #a0e9ff, #89cff0);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+    background-color:antiquewhite;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding:20px 30px;
+    width: 300px;
+    max-width: 90%;
+    
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    display: grid;
+    flex-direction: column;
+}
+
+#myh1{
+    color: rgba(94, 94, 184, 0.742);
+}
+
+#input {
+    margin-bottom: 15px;
+    padding: 10px ;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+}
+#input:focus{
+
+  outline: 2px solid rgba(94, 94, 184, 0.4);
+  outline-offset: 2px;
+}
+
+.ratio{
+    margin: 20px;
+    justify-content: space-around;
+    font-size: 1.5em;
+    margin: 20px;
+    
+}
+.ratio input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(94, 94, 184); 
+  cursor: pointer;
+}
+
+#button {
+    background: rgb(207, 32, 32);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    padding: 10px ;
+    border-radius: 15px;
+
+}
+
+#button:active {
+  transform: scale(0.97);
+  background: rgb(170, 30, 30);
+}
+
+
+
+#result {
+    background: rgba(94, 94, 184, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: rgb(59, 59, 132);
+    font-weight: bold;
+}
+
